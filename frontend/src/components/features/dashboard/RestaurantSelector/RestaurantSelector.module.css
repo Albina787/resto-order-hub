@@ -1,0 +1,73 @@
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.currentRestaurant {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  padding: 0.75rem;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.currentRestaurant strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.restaurantList {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.restaurantCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--bg-primary);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.restaurantCard:hover {
+  border-color: var(--primary-color);
+  background: var(--bg-hover);
+}
+
+.restaurantCard.active {
+  border-color: var(--primary-color);
+  background: var(--primary-bg);
+}
+
+.restaurantName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.restaurantAddress {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.activeBadge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  background: var(--primary-bg);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+}

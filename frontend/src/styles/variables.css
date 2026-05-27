@@ -1,0 +1,111 @@
+:root {
+  /* Colors - Brand */
+  --color-primary: #c8522a;
+  --color-primary-hover: #b04520;
+  --color-primary-light: #f5e6df;
+  --color-primary-foreground: #ffffff;
+
+  /* Colors - Neutral */
+  --color-background: #ffffff;
+  --color-surface: #f9f9f7;
+  --color-surface-hover: #f0f0ec;
+  --color-border: #e5e5e0;
+  --color-border-strong: #c8c8c0;
+
+  /* Colors - Text */
+  --color-text-primary: #1a1a18;
+  --color-text-secondary: #5a5a54;
+  --color-text-muted: #8a8a82;
+  --color-text-disabled: #b8b8b0;
+  --color-text-inverse: #ffffff;
+
+  /* Colors - Status */
+  --color-success: #2d7a4f;
+  --color-success-light: #e6f4ec;
+  --color-warning: #b07a10;
+  --color-warning-light: #fef3d8;
+  --color-error: #c0392b;
+  --color-error-light: #fde8e6;
+  --color-info: #1a6fa8;
+  --color-info-light: #e3f0fa;
+
+  /* Colors - Reservation Status */
+  --color-status-pending: #b07a10;
+  --color-status-pending-bg: #fef3d8;
+  --color-status-confirmed: #2d7a4f;
+  --color-status-confirmed-bg: #e6f4ec;
+  --color-status-cancelled: #c0392b;
+  --color-status-cancelled-bg: #fde8e6;
+  --color-status-completed: #1a6fa8;
+  --color-status-completed-bg: #e3f0fa;
+  --color-status-no-show: #5a5a54;
+  --color-status-no-show-bg: #f0f0ec;
+
+  /* Typography — system font stack with Cyrillic support */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.08), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  /* Layout */
+  --header-height: 64px;
+  --sidebar-width: 256px;
+  --container-max-width: 1280px;
+  --content-max-width: 768px;
+
+  /* Z-index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+}

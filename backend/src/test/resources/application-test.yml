@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: RestoOrderHub Backend Test
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
+
+  flyway:
+    enabled: false
+
+  mail:
+    host: localhost
+    port: 1025
+    username: test@restoorderhub.com
+    password: test
+    properties:
+      mail:
+        smtp:
+          auth: false
+          starttls:
+            enable: false
+
+# JWT Configuration
+jwt:
+  secret: test-secret-key-for-jwt-token-signing-must-be-long-enough-for-testing
+  access-token-expiration: 900000
+  refresh-token-expiration: 604800000
+
+# Disable OAuth2 for tests
+oauth2:
+  enabled: false
+
+# CORS Configuration
+cors:
+  allowed-origins: http://localhost:3000,http://localhost:3001
+
+# File Storage
+file:
+  upload-dir: /tmp/resto-order-hub-test-uploads
+  max-size: 5242880
+  allowed-types: image/jpeg,image/jpg,image/png,image/gif,image/webp
+  enabled: false
+
+# Logging
+logging:
+  level:
+    com.restoorderhub: DEBUG
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG
