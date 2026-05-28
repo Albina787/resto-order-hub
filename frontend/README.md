@@ -38,6 +38,6 @@ docker run -p 20001:3000 --env-file .env resto-order-hub-frontend
 
 | Variable | Description |
 |----------|-------------|
-| `NEXT_PUBLIC_API_URL` | Backend API URL (e.g., https://site-1.phfk.college/api) |
+| `NEXT_PUBLIC_API_URL` | Backend API URL |
 
 See `.env.example` for full configuration.
