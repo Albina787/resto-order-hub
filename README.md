@@ -74,18 +74,6 @@ docker-compose up -d --build
 - Backend API: http://localhost:20001/api/v1
 - Swagger UI: http://localhost:8080/swagger-ui.html
 
-### Локальна розробка
-
-Дивіться детальні інструкції в:
-- [Backend README](./backend/README.md)
-- [Frontend README](./frontend/README.md)
-
-## 📚 Документація
-
-- [Deployment Guide](./DEPLOYMENT.md) - Інструкції для production деплою
-- [Backend API Documentation](./backend/README.md) - REST API endpoints
-- [Frontend Documentation](./frontend/README.md) - Компоненти та архітектура
-
 ## 🔐 Змінні оточення
 
 Основні змінні в `.env`:
@@ -217,18 +205,6 @@ MAIL_PASSWORD=your-app-password
 
 Повна документація: http://localhost:8080/swagger-ui.html
 
-## 🚀 Production Deployment
-
-Дивіться [DEPLOYMENT.md](./DEPLOYMENT.md) для детальних інструкцій з деплою на production сервер з Cloudflare Tunnel.
-
 ## 📝 Ліцензія
 
 Цей проєкт є приватним та призначений для внутрішнього використання.
-
-## 👥 Автори
-
-RestoOrderHub Team
-
-## 🤝 Контрибуція
-
-Цей проєкт є приватним. Для контрибуції зв'яжіться з власником репозиторію.
